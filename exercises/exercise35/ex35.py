@@ -33,8 +33,17 @@ from sys import exit
 # 			print(" ig to no idea")
 
 num = input("> ")
+if isinstance(num, str):
+	print("it's a string")
 
+num = [0, 0, 0]
+if 0 in num:
+	print("0 is in num")
+else:
+	exit("hihihi ")
+
+num = "100"
 if "0" in num:
 	print("0 is in num")
 else:
-	exit("hihihi")
+	exit("hihihi ")
