@@ -1,4 +1,4 @@
-#!/bin/usr/env python
+#!/bin/usr/env python3
 
 class Scene(object):
 
@@ -10,7 +10,7 @@ class Engine(object):
 	def __init__(self, scene_map):
 		pass
 
-	def paly(self):
+	def play(self):
 		pass
 
 class Death(Scene):
